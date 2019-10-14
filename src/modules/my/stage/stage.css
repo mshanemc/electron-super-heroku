@@ -1,0 +1,20 @@
+.slds-progress {
+    /* background-color: white; */
+    max-width: 90vw;
+    padding: 0px 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.slds-progress-bar {
+    width: 81vw;
+}
+
+.slds-progress__marker {
+    width: 0.75rem;
+    height: 0.75rem;
+}
+
+button {
+    color: #5784ab;
+    font-size: 0.6em;
+}

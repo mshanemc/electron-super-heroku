@@ -1,25 +1,82 @@
 <template>
     <!-- LWC sample component <my-greeting> -->
-    <div class="center greeting">
-        <!-- <my-greeting speed="slow"></my-greeting> -->
-        <my-greeting speed="medium"></my-greeting>
-        <!-- <my-greeting speed="fast"></my-greeting> -->
-    </div>
-
-    <div class="center">
-        <img src="/resources/lwc.png" />
-    </div>
-
-    <!-- Page code -->
-    <div class="center">
-        <div class="container">
-            <p class="info">
-                Edit <strong class="code">src/modules/my/app/app.html</strong>
-                <br />and save for live reload.
-            </p>
-        </div>
+    <my-stage current-stage="options"></my-stage>
+    <div class="header">Additional accessories for your Flash</div>
+    <div class="product">
         <div>
-            <a href="https://lwc.dev" class="link" target="_blank">Learn LWC</a>
+            <img src="https://via.placeholder.com/150" />
+        </div>
+        <div class="product_detail">
+            <div class="title">Roof mounted stowable solar array</div>
+            <div class="price">$695</div>
+            <div class="description">
+                Charge your car anywhere. Mounts securely to roof rack, plugs
+                into charging port, and folds flat to stow in cargo compartment.
+                Requires roof rack. Great for camping, parking lots. Use only
+                while vehicle is parked.
+            </div>
+            <div class="button_area">
+                <my-toggle></my-toggle>
+            </div>
         </div>
     </div>
+
+    <div class="product">
+        <div>
+            <img src="https://via.placeholder.com/150" />
+        </div>
+        <div class="product_detail">
+            <div class="title">Sport Spoiler</div>
+            <div class="price">$295</div>
+            <div class="description">
+                This spoiler mounts to the rear of your car, improving looks and
+                aerodynamics. Please see the <a href="">product guide</a> for
+                speed-force curves and details on performance and efficiency
+                impacts.
+            </div>
+            <div class="button_area">
+                <my-toggle></my-toggle>
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div>
+            <img src="https://via.placeholder.com/150" />
+        </div>
+        <div class="product_detail">
+            <div class="title">Something Else</div>
+            <div class="price">$95</div>
+            <div class="description">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
+                doloremque sed dicta repudiandae cumque exercitationem non
+                architecto consequuntur eius qui, quibusdam sint similique enim
+                tempora? Beatae fugit sapiente ut quo.
+            </div>
+            <div class="button_area">
+                <my-toggle></my-toggle>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="product">
+        <div>
+            <img src="https://via.placeholder.com/150" />
+        </div>
+        <div class="product_detail">
+            <div class="title">Something Else</div>
+            <div class="price">$145</div>
+            <div class="description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui
+                dolor id expedita aut! Harum reiciendis similique illo quia ex
+                asperiores, alias, quasi consequatur aliquid omnis repudiandae
+                veritatis deleniti totam corporis.
+            </div>
+            <div class="button_area">
+                <my-toggle></my-toggle>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- <div>complete button goes here</div> -->
 </template>

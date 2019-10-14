@@ -5,10 +5,13 @@
     "author": "mshanemc",
     "bugs": "https://github.com/mshanemc/electron-super-heroku/issues",
     "dependencies": {
+        "@salesforce-ux/design-system": "^2.10.0",
         "lwc-services": "^1.3.4"
     },
     "devDependencies": {
         "@types/jest": "^24",
+        "@typescript-eslint/parser": "^2.4.0",
+        "@typescript-eslint/eslint-plugin": "^2.4.0",
         "husky": "^3.0.7",
         "lint-staged": "^9.4"
     },
