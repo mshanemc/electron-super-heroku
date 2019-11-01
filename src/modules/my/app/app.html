@@ -1,7 +1,9 @@
 <template>
     <!-- LWC sample component <my-greeting> -->
     <my-stage current-stage="options"></my-stage>
-    <div class="header">Additional accessories for your Flash</div>
+    <div class="header" onclick={toggleSolar}>
+        Additional accessories for your Flash
+    </div>
     <template for:each={products} for:item="product">
         <div class="product" key={product.title}>
             <div class="product_img">
